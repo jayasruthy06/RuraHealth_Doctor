@@ -1,14 +1,14 @@
-import LoginForm from "@/components/login-form";
+import MultiStepForm from "@/components/multi-page-form";
 
 export const metadata = {
-  title: "RuraHealth - Doctor | Login"
+  title: "RuraHealth - Doctor | Register"
 }
-export default function Home() {
+export default function SignUpPage() {
   return (
     <div
       className="bg-muted flex min-h-svh flex-col items-center justify-center p-6 md:p-10">
       <div className="w-full max-w-sm md:max-w-3xl">
-        <LoginForm/>
+        <MultiStepForm/>
       </div>
     </div>
   );
